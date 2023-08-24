@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-24 02:58:17 PM"/>
+        <attribute name="created" value="REVMTDtNSU5JLVBDOzIwMjMtMDgtMjQ7MDI6NDU6NTggUE07MjA3MQ=="/>
+        <attribute name="edited" value="REVMTDtNSU5JLVBDOzIwMjMtMDgtMjQ7MDI6NTg6MTcgUE07MTsyMTc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Input the 1st number:&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Input the 2nd number:&quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;Input the 3rd number:&quot;" newline="True"/>
+            <input variable="num3"/>
+            <if expression="num1&gt;num2">
+                <then>
+                    <if expression="num1&gt;num3">
+                        <then>
+                            <output expression="num1" newline="False"/>
+                            <output expression="&quot;  is the larger number.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="num3" newline="False"/>
+                            <output expression="&quot;  is the larger number.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="num2&gt;num3">
+                        <then>
+                            <output expression="num2" newline="False"/>
+                            <output expression="&quot;  is the larger number.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="num3" newline="False"/>
+                            <output expression="&quot;  is the larger number.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;exiting....&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
