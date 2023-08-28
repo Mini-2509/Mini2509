@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-28 03:44:23 PM"/>
+        <attribute name="created" value="REVMTDtNSU5JLVBDOzIwMjMtMDgtMjg7MDM6NDA6NDAgUE07MjA2Mg=="/>
+        <attribute name="edited" value="REVMTDtNSU5JLVBDOzIwMjMtMDgtMjg7MDM6NDQ6MjMgUE07MTsyMTc1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="S, T" type="Real" array="False" size=""/>
+            <output expression="&quot;Input the distance coverd&quot;" newline="True"/>
+            <input variable="S"/>
+            <output expression="&quot;Input the time taken&quot;" newline="True"/>
+            <input variable="T"/>
+            <output expression="&quot;The average speed is &quot;" newline="False"/>
+            <output expression="S/T" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
